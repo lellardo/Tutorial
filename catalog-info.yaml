@@ -18,3 +18,5 @@ spec:
   lifecycle: production
   dependsOn:
     - resource:default/collection-db
+  providesApis:
+    - collection-private-api
