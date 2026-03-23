@@ -18,4 +18,4 @@ spec:
   lifecycle: production
   dependsOn:
     - resource:default/studentworks-db
-    - component:default/collection
+    - component:default/Ap.Collection
