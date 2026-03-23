@@ -9,9 +9,8 @@ metadata:
       url: http://collection
     - title: Documentation
       url: https://collection/docs
-  annotations:
-    bitbucket.com/project-slug: collection/documents
-    backstage.io/techdocs-ref: dir:.
+ tags:
+    - C#
 spec:
   type: service
   owner: Antiplagiat
