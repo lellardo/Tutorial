@@ -10,7 +10,7 @@ metadata:
     - title: Documentation
       url: https://collection/docs
   tags:
-    - C#
+    - java
 spec:
   type: service
   owner: alem
