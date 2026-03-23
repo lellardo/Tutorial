@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Antiplagiat.StudentWorks
+  description: |
+    Antiplagiat.StudentWorks is a service for managing university's tasks and student works received.
+  links:
+    - title: Website
+      url: http://studentworks
+    - title: Documentation
+      url: https://studentworks/docs
+  annotations:
+    bitbucket.com/project-slug: studentworks/documents
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: microservice
+  owner: Antiplagiat
+  lifecycle: production
