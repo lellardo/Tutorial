@@ -16,3 +16,6 @@ spec:
   type: microservice
   owner: Antiplagiat
   lifecycle: production
+  dependsOn:
+    - resource:default/studentworks-db
+
