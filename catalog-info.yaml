@@ -7,8 +7,6 @@ metadata:
     example.com/custom: custom_label_value
   annotations:
     example.com/service-discovery: collection
-  tags:
-    - C#
   links:
     - url: https://bitbucket.ap-team.ru/projects/ALEM/repos/ap.collection/browse
       title: AP Collection
