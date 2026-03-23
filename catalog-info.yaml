@@ -1,0 +1,18 @@
+apiVersion: 0.33
+kind: Component
+metadata:
+  name: Ap.Collection
+  description: Ap Collection Service
+  labels:
+    example.com/custom: custom_label_value
+  annotations:
+    example.com/service-discovery: collection
+  tags:
+    - C#
+  links:
+    - url: https://bitbucket.ap-team.ru/projects/ALEM/repos/ap.collection/browse
+      title: AP Collection
+spec:
+  type: Microservice
+  lifecycle: production
+  owner: ALEM Team
