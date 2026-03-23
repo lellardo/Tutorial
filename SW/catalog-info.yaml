@@ -9,9 +9,9 @@ metadata:
       url: http://studentworks
     - title: Documentation
       url: https://studentworks/docs
-  annotations:
-    bitbucket.com/project-slug: studentworks/documents
-    backstage.io/techdocs-ref: dir:.
+  tags:
+    - c#
+    - net8
 spec:
   type: service
   owner: alem
