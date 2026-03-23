@@ -14,7 +14,7 @@ metadata:
     backstage.io/techdocs-ref: dir:.
 spec:
   type: service
-  owner: Antiplagiat
+  owner: alem
   lifecycle: production
   dependsOn:
     - resource:default/studentworks-db
