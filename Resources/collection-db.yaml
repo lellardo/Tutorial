@@ -6,5 +6,5 @@ metadata:
   description: Stores collection documents data
 spec:
   type: database
-  owner: Antiplagiat
+  owner: alem
   system: Ap.Collection
