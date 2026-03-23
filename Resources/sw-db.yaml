@@ -6,5 +6,5 @@ metadata:
   description: Stores student works data
 spec:
   type: database
-  owner: Antiplagiat
+  owner: alem
   system: Antiplagiat.StudentWorks
