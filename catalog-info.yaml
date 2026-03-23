@@ -13,7 +13,7 @@ metadata:
     - C#
 spec:
   type: service
-  owner: Antiplagiat
+  owner: alem
   lifecycle: production
   dependsOn:
     - resource:default/collection-db
