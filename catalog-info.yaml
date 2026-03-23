@@ -2,15 +2,17 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: Ap.Collection
-  description: Ap Collection Service
-  labels:
-    example.com/custom: custom_label_value
-  annotations:
-    example.com/service-discovery: collection
+  description: |
+    Ap.Collection is a service for managing collection of company documents.
   links:
-    - url: https://bitbucket.ap-team.ru/projects/ALEM/repos/ap.collection/browse
-      title: AP Collection
+    - title: Website
+      url: http://collection
+    - title: Documentation
+      url: https://collection/docs
+  annotations:
+    bitbucket.com/project-slug: collection/documents
+    backstage.io/techdocs-ref: dir:.
 spec:
-  type: Microservice
+  type: microservice
+  owner: Antiplagiat
   lifecycle: production
-  owner: ALEM Team
