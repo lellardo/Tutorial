@@ -9,7 +9,7 @@ metadata:
       url: http://collection
     - title: Documentation
       url: https://collection/docs
- tags:
+  tags:
     - C#
 spec:
   type: service
