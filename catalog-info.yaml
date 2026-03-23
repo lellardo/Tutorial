@@ -11,6 +11,7 @@ metadata:
       url: https://collection/docs
   tags:
     - c#
+    - net8
 spec:
   type: service
   owner: alem
