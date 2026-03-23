@@ -13,6 +13,8 @@ metadata:
     bitbucket.com/project-slug: collection/documents
     backstage.io/techdocs-ref: dir:.
 spec:
-  type: microservice
+  type: service
   owner: Antiplagiat
   lifecycle: production
+  dependsOn:
+    - resource:default/collection-db
