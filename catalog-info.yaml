@@ -16,3 +16,5 @@ spec:
   type: Microservice
   lifecycle: production
   owner: ALEM Team
+  providesApis:
+    - collection-private-api
