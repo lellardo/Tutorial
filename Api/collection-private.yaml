@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: collection-private-api
+  description: Private API interface
+spec:
+  type: openapi
+  lifecycle: production
+  owner: alem
+  definition: |
+    openapi: "3.0.0"
