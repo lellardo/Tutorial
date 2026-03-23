@@ -19,3 +19,5 @@ spec:
   dependsOn:
     - resource:default/studentworks-db
     - component:default/Ap.Collection
+  consumesApis:
+    - collection-private-api
