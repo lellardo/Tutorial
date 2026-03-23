@@ -1,1 +1,10 @@
 
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: collection-db
+  description: Stores collection documents data
+spec:
+  type: database
+  owner: Antiplagiat
+  system: Ap.Collection
