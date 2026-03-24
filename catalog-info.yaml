@@ -7,8 +7,6 @@ metadata:
   links:
     - title: Website
       url: http://collection
-    - title: Documentation
-      url: https://collection/docs
   tags:
     - c#
     - net8
