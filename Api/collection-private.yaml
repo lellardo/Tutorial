@@ -19,6 +19,6 @@ spec:
     paths:
       /documents:
       "get": {
-        "summary": "Получить документы.",
+        "summary": "Получить документы."
       }
           
