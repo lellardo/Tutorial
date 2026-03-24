@@ -18,6 +18,6 @@ spec:
       - url: http://collection
     paths:
       /documents:
-      "get":
-        "summary": "Получить документы"
+      get:
+        summary: Получить документы
           
