@@ -19,9 +19,6 @@ spec:
     paths:
       /documents:
       "get": {
-        "tags": [
-          "DemoChecks"
-        ],
         "summary": "Получить документы.",
         "parameters": [
           {
