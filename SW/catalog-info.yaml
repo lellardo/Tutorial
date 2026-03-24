@@ -7,8 +7,6 @@ metadata:
   links:
     - title: Website
       url: http://studentworks
-    - title: Documentation
-      url: https://studentworks/docs
   tags:
     - c#
     - net8
