@@ -20,4 +20,6 @@ spec:
       /documents:
         get:
           summary: Получить список документов
-          tags: Documents
+          parameters:
+            - name: fromDate
+            - description: Начало промежутка времени
