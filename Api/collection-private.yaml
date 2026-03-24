@@ -20,16 +20,5 @@ spec:
       /documents:
       "get": {
         "summary": "Получить документы.",
-        "parameters": [
-          {
-            "name": "fromDate",
-            "in": "path",
-            "description": "дата начала промежутка.",
-            "required": false,
-            "schema": {
-              "type": "string"
-            }
-          }
-        ]
       }
           
