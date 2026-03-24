@@ -20,6 +20,10 @@ spec:
       /documents:
         get:
           summary: Получить список документов
+          parameters:
+            - name: fromDate
+              description: Начало промежутка
+              required: false
           responses:
             '200':
               description: Success
