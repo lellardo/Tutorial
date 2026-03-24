@@ -9,3 +9,19 @@ spec:
   owner: alem
   definition: |
     openapi: "3.0.0"
+    info:
+      version: 1.0.0
+      title: Collection Private API
+      license:
+        name: MIT
+    servers:
+      - url: http://collection
+    paths:
+      /documents:
+        get:
+          summary: List all documents
+      /cabinet/add:
+        post:
+          summary: Adds cabinet document to collection
+
+          
