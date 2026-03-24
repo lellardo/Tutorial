@@ -19,4 +19,5 @@ spec:
     paths:
       /documents:
         get:
-          summary: Получить список документов          
+          summary: Получить список документов
+          tags: Documents
