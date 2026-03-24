@@ -20,5 +20,4 @@ spec:
       /documents:
         get:
           summary: Получить список документов
-          parameters:
-            - name: fromDate
+          operationId: GetDocuments
