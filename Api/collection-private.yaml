@@ -22,4 +22,3 @@ spec:
           summary: Получить список документов
           parameters:
             - name: fromDate
-            - description: Начало промежутка времени
