@@ -20,4 +20,8 @@ spec:
       /documents:
         get:
           summary: Получить список документов
-          operationId: GetDocuments
+          responses:
+            '200':
+              description: Success
+            '400':
+              description: Invalid input
