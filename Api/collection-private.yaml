@@ -18,10 +18,44 @@ spec:
       - url: http://collection
     paths:
       /documents:
-        get:
-          summary: List all documents
-      /cabinet/add:
-        post:
-          summary: Adds cabinet document to collection
-
+      "get": {
+        "tags": [
+          "DemoChecks"
+        ],
+        "summary": "Получить документы.",
+        "parameters": [
+          {
+            "name": "fromDate",
+            "in": "path",
+            "description": "дата начала промежутка.",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found",
+            "content": {
+              "application/json": {
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+              }
+            }
+          }
+        }
+      }
           
