@@ -17,6 +17,6 @@ spec:
     servers:
       - url: http://collection
     paths:
-      /artists:
+      /documents:
         get:
-          summary: List all artists          
+          summary: Получить список документов          
